@@ -15,11 +15,12 @@
 #import "ClothViewController.h"
 
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <foodDelegate, drinkDelegate, clothDelegate, UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *productPricesViewControler;
-@property (copy, nonatomic) NSMutableArray *listOfProducts;
+@property (copy, nonatomic) NSMutableArray *products;
 
+- (IBAction)listOfProducts:(UIBarButtonItem *)sender;
 
 @end
 

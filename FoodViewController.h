@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "FoodViewController.h"
 #import "Food.h"
+#import "Drink.h"
+#import "Cloth.h"
 #import "Shopping_Cart.h"
 #import "Product.h"
 
@@ -21,7 +23,8 @@
 
 @end
 
-@interface FoodViewController : UIViewController
+@interface FoodViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
 @property (weak, nonatomic) IBOutlet UITextField *foodID;
 @property (weak, nonatomic) IBOutlet UITextField *foodName;
 @property (weak, nonatomic) IBOutlet UITextField *foodPrice;
@@ -30,6 +33,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *foodSize;
 @property (weak, nonatomic) IBOutlet UITextField *foodIngredients;
 
+@property NSMutableArray<Food*>* foodData;
 @property (weak, nonatomic) id<foodDelegate> delegate;
 - (IBAction)clearFood:(UIButton *)sender;
 

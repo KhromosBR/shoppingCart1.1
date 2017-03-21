@@ -19,7 +19,7 @@
 
 @end
 
-@interface ClothViewController : UIViewController
+@interface ClothViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITextField *clothID;
 @property (weak, nonatomic) IBOutlet UITextField *clothName;
 @property (weak, nonatomic) IBOutlet UITextField *clothPrice;
