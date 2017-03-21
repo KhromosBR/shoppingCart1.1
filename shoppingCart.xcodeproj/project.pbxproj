@@ -22,6 +22,8 @@
 		52BA361A1E7B0BE10094B106 /* Cloth.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BA360F1E7B0BE10094B106 /* Cloth.m */; };
 		52BA361B1E7B0BE10094B106 /* Material.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BA36111E7B0BE10094B106 /* Material.m */; };
 		52BA361C1E7B0BE10094B106 /* Shopping_Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BA36131E7B0BE10094B106 /* Shopping_Cart.m */; };
+		52BA36221E7B70650094B106 /* ListOfProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BA36211E7B70650094B106 /* ListOfProducts.m */; };
+		52BA36481E80CB110094B106 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BA36471E80CB100094B106 /* MainTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,10 @@
 		52BA36111E7B0BE10094B106 /* Material.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Material.m; sourceTree = "<group>"; };
 		52BA36121E7B0BE10094B106 /* Shopping_Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shopping_Cart.h; sourceTree = "<group>"; };
 		52BA36131E7B0BE10094B106 /* Shopping_Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shopping_Cart.m; sourceTree = "<group>"; };
+		52BA36201E7B70650094B106 /* ListOfProducts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListOfProducts.h; path = shoppingCart/ListOfProducts.h; sourceTree = "<group>"; };
+		52BA36211E7B70650094B106 /* ListOfProducts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListOfProducts.m; path = shoppingCart/ListOfProducts.m; sourceTree = "<group>"; };
+		52BA36461E80CB100094B106 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		52BA36471E80CB100094B106 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,8 @@
 		52BA350B1E6FC2730094B106 = {
 			isa = PBXGroup;
 			children = (
+				52BA36461E80CB100094B106 /* MainTableViewCell.h */,
+				52BA36471E80CB100094B106 /* MainTableViewCell.m */,
 				52BA35161E6FC2730094B106 /* shoppingCart */,
 				52BA35151E6FC2730094B106 /* Products */,
 				52BA35FF1E7B0B900094B106 /* FoodViewController.h */,
@@ -77,6 +85,8 @@
 				52BA36031E7B0BE10094B106 /* DrinkViewController.m */,
 				52BA36041E7B0BE10094B106 /* ClothViewController.h */,
 				52BA36051E7B0BE10094B106 /* ClothViewController.m */,
+				52BA36201E7B70650094B106 /* ListOfProducts.h */,
+				52BA36211E7B70650094B106 /* ListOfProducts.m */,
 				52BA36081E7B0BE10094B106 /* Food.h */,
 				52BA36091E7B0BE10094B106 /* Food.m */,
 				52BA360A1E7B0BE10094B106 /* Product.h */,
@@ -197,6 +207,7 @@
 			files = (
 				52BA361B1E7B0BE10094B106 /* Material.m in Sources */,
 				52BA351F1E6FC2730094B106 /* ViewController.m in Sources */,
+				52BA36481E80CB110094B106 /* MainTableViewCell.m in Sources */,
 				52BA36171E7B0BE10094B106 /* Food.m in Sources */,
 				52BA36141E7B0BE10094B106 /* DrinkViewController.m in Sources */,
 				52BA36181E7B0BE10094B106 /* Product.m in Sources */,
@@ -206,6 +217,7 @@
 				52BA36191E7B0BE10094B106 /* Drink.m in Sources */,
 				52BA36151E7B0BE10094B106 /* ClothViewController.m in Sources */,
 				52BA36011E7B0B900094B106 /* FoodViewController.m in Sources */,
+				52BA36221E7B70650094B106 /* ListOfProducts.m in Sources */,
 				52BA35191E6FC2730094B106 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

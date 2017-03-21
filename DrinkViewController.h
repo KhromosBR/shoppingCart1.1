@@ -20,7 +20,7 @@
 
 @end
 
-@interface DrinkViewController : UIViewController
+@interface DrinkViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *drinkID;
 @property (weak, nonatomic) IBOutlet UITextField *drinkName;

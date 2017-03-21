@@ -30,17 +30,14 @@
 @property (weak, nonatomic) IBOutlet UITextField *foodCalorie;
 @property (weak, nonatomic) IBOutlet UITextField *foodSize;
 @property (weak, nonatomic) IBOutlet UITextField *foodIngredients;
-
-- (IBAction)clearFood:(UIButton *)sender;
-- (IBAction)clearFood:(UIButton *)sender;
-- (IBAction)sendFood:(UIButton *)sender;
-- (IBAction)clearFood:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *cleanFoodField;
+@property (weak, nonatomic) IBOutlet UIButton *sendFood;
+//delegate
 @property (weak, nonatomic) id<foodDelegate> delegate;
 
-@property (weak, nonatomic) IBOutlet UIButton *cleanFoodField;
 
-@property (weak, nonatomic) IBOutlet UIButton *sendFood;
-
+- (IBAction)sendFood:(UIButton *)sender;
+- (IBAction)clearFood:(UIButton *)sender;
 
 @end
 
